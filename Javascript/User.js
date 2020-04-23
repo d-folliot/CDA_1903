@@ -11,8 +11,10 @@ function User(_user) {
   this.role = _user.role || 'Usager';
 
 
-  
-
 }
+
+User.prototype.isValid = function() {
+   return true;
+ }
 
 module.exports = { User: User };
