@@ -1,14 +1,15 @@
 {
-  "name": "javascript",
+  "name": "api_users",
   "version": "1.0.0",
   "description": "",
-  "main": "User.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "CRM",
+  "license": "MIT",
   "dependencies": {
-    "vue": "^2.6.11"
+    "express": "^4.17.1",
+    "sqlite3": "^4.2.0"
   }
 }

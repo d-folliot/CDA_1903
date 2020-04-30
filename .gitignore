@@ -1,5 +1,3 @@
-# SALUT
-# HI
-
+#fichiers ignores
 package-lock.json
 node_modules/
